@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, TextField } from '@mui/material';
 
 const Name = () => {
-  const [name, setName] = useState("alan");
+  const [name, setName] = useState("Aswanth");
   const [a, setA] = useState(name); // Initial display name
 
   const inputHandler = (e) => {
