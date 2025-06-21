@@ -9,8 +9,11 @@ export const User = () => {
   {
     console.log(res.data)
     setuser(res.data)
-    console.log(User)
+    
   })
+  .catch=(err)=>{
+    console.log(err)
+  }
 
   return (
     <div>
